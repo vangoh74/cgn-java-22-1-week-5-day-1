@@ -43,3 +43,7 @@ input, button {
   margin: 10px;
   background-color: aliceblue;
 }
+
+.error-msg {
+  color: black;
+}
