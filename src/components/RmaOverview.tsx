@@ -7,5 +7,10 @@ type RmaOverviewProps = {
 }
 
 export default function RmaOverview(props : RmaOverviewProps) {
-    return <div className={"gallery"}> { props.cards.map( card => <PostCard card={card}/>) } </div>;
+    return (
+        <div className={"gallery"}>
+            { props.cards.map( card => <PostCard card={card}/>) }
+        </div>
+        );
+
 }
